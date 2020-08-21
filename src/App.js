@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {Message} from './message.js'
 import './App.css';
 
-function App() {
+export default function App() {
   let [count, setCount] = useState(0) 
   let [num, setNum] = useState(0) 
   let [isMorning, setisMorning] = useState(false) 
@@ -32,5 +32,3 @@ function App() {
 
     );
 }
-
-export default App;
